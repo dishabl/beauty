@@ -107,6 +107,7 @@ h3 {
   height: 40px;
   border: 2px solid #f13c6e;
   background-color: white;
+  cursor: pointer;
 }
 .second-line__main-menu {
   display: flex;
@@ -124,11 +125,11 @@ h3 {
   font-size: 16px;
   color: #000000;
   line-height: 18.75px;
+  z-index: 3;
 }
 
 .sale {
   position: absolute;
-  z-index: -1;
   top: 257px;
   width: 1920px;
   height: 604px;
@@ -143,7 +144,6 @@ h3 {
   left: 725px;
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 50%;
-  z-index: -3;
 }
 
 .ellipse2 {
@@ -154,7 +154,6 @@ h3 {
   left: 816px;
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 50%;
-  z-index: -3;
 }
 
 .armchair {
@@ -210,6 +209,7 @@ p {
   height: 40px;
   border: 2px solid #ffffff;
   background-color: #f13c6e;
+  cursor: pointer;
 }
 
 .down-size {
@@ -305,6 +305,7 @@ p {
   height: 35px;
   border: 2px solid #ffffff;
   background-color: #f13c6e;
+  cursor: pointer;
 }
 
 .subscribe {
@@ -361,6 +362,9 @@ input::placeholder {
   color: #c4c4c4e0;
 }
 
+input:focus {
+  outline: none;
+}
 .envelope {
   width: 140px;
   height: 140px;
@@ -418,6 +422,7 @@ input::placeholder {
   height: 40px;
   border: 2px solid #ffffff;
   background-color: #f13c6e;
+  cursor: pointer;
 }
 
 .car {
@@ -447,6 +452,7 @@ th,
 td {
   border: 1px solid #efefef;
   padding-top: 8px;
+  cursor: pointer;
 }
 
 footer {
@@ -511,21 +517,25 @@ a {
 
 .youtube {
   display: flex;
+  cursor: pointer;
 }
 
 .vk {
   margin-left: 15px;
   display: flex;
+  cursor: pointer;
 }
 
 .facebook {
   margin-left: 15px;
   display: flex;
+  cursor: pointer;
 }
 
 .instagram {
   margin-left: 15px;
   display: flex;
+  cursor: pointer;
 }
 
 .adress {
@@ -559,6 +569,7 @@ a {
   background-color: white;
   position: relative;
   right: -50px;
+  cursor: pointer;
 }
 
 .ellipse {
