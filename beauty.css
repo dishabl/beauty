@@ -78,10 +78,29 @@ h1 {
   border-radius: 40px;
 }
 
+.searchImg {
+  position: relative;
+  top: 9px;
+  left: 15px;
+}
+
 .search {
   position: relative;
-  top: 10px;
-  left: 15px;
+  width: 245px;
+  height: 38px;
+  top: -25px;
+  margin-left: 1px;
+  border-radius: 30px;
+  border: none;
+  font-size: 19px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-indent: 25px;
+  background-color: transparent;
+}
+
+.search:focus {
+  background-color: #efefef;
 }
 
 h3 {
@@ -365,6 +384,7 @@ input::placeholder {
 input:focus {
   outline: none;
 }
+
 .envelope {
   width: 140px;
   height: 140px;
